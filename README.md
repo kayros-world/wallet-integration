@@ -5,7 +5,7 @@
 The presence of the kayrosWallet boolean variable, `window.kayrosWallet`, in a user's browser indicates a Kayros Wallet user.
 To demonstrate this, verify if your browser is running Kayros Wallet by copying and pasting the following code snippet in the developer console of your browser:
 
-```
+```javascript
 if (typeof window.kayrosWallet === 'boolean' && window.kayrosWallet === true) {
   console.log('Kayros Wallet is installed!');
 }
